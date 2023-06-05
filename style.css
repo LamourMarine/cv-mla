@@ -1,0 +1,20 @@
+.name {
+    font-family: cursive;
+    text-align:center;
+    background-color: rgb(42, 141, 158);
+    border: thick double #299df5;
+}
+
+.skills {
+    font-family: cursive;
+    background-color: rgb(243, 157, 172);
+    border: 5px solid rgb(244, 127, 201);
+}
+
+h3{
+    text-decoration: underline rgb(12, 12, 12);
+}
+
+#footer {
+    background-color: rgb(137, 177, 121);
+}
