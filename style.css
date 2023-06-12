@@ -1,20 +1,84 @@
-.name {
-    font-family: cursive;
+body {
+    color: #4b4b4b;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 20px;
+    width: 100%;
+    margin: 0%;
+    border-right: 1px solid #161e2e;
+    border-left: 1px solid #161e2e;
+    position: relative;
+}
+
+
+header {
+    width: auto;
+    /* background-color: #215273; */
+    background-image: linear-gradient(to right top, #52a69e, #5cb2ab, #65beb8, #6fcac5, #79d6d2, #7bddd9, #7ce5e1, #7eece8, #77f0ea, #70f4ed, #68f7ef, #5ffbf1);    height: 250px;
+}
+
+.container {
+    height: 80px;
+    line-height: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align:center;
-    background-color: rgb(42, 141, 158);
-    border: thick double #299df5;
+    
+    font-weight: bold; // mettre en gras
+    font-size: 5em; // Une taille de 6 fois la taille normale
+    color: #efefef;
+    text-shadow:1px 3px 8px rgba(0,0,0,0.80); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ©
+    }
+
+  
+.card {
+    padding: 16px;
+    position: unset;
+    margin-bottom: 16px;
+    background-color: white;
+    border-bottom: 1px solid #6b7280;
+    border-top: 1px solid #6b7280;
 }
 
-.skills {
-    font-family: cursive;
-    background-color: rgb(243, 157, 172);
-    border: 5px solid rgb(244, 127, 201);
+h3 {
+    font-size: small;
+    font-family: ;
 }
 
-h3{
-    text-decoration: underline rgb(12, 12, 12);
+.titre {
+    color: #4b4b4b;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto;
+    /* border-right: 1px solid #161e2e;
+    border-left: 1px solid #161e2e; */
+    position: relative;
 }
+
+
+span.badge {
+    color: #215273;
+    background-color: #e5edff;
+    font size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 0  4px 0 4px;
+
+;
+}
+
+
+
+
 
 #footer {
-    background-color: rgb(137, 177, 121);
+      padding:50px 0;
+  color:#f0f9ff;
+  background-color:#57d8e6;
 }
+
+img {
+    justify-content:right;
+    width : 50px;
+    height : 50px;
+}
+
