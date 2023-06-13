@@ -6,41 +6,57 @@
 
 body {
     color: #4b4b4b;
-    background-color:#F2F2F2;
+    background-color:#2f3143;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     font-size: 20px;
     width: 100%;
-    border-right: 1px solid #161e2e;
-    border-left: 1px solid #161e2e;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
     
 }
 
 
 header {
-    width: auto;
-    background-color: F2F2F2
+    width:auto;
+    height: 200px;
+    background-color: F2F2F2;
+    margin-top: 80px
 }
 
 .container {
     /* height: 80px; */
-    line-height: 80px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* line-height: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     text-align:center;
+    font-weight: 100;
     
-    font-weight: bold; // mettre en gras
-    font-size: 5em; // Une taille de 6 fois la taille normale
-    color: #efefef;
-    text-shadow:1px 3px 8px rgba(0,0,0,0.80); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ©
+    /* font-weight: bold; // mettre en gras
+    font-size: 5em; // Une taille de 6 fois la taille normale */
+    color: #ffffff;
+    /* text-shadow:1px 3px 8px rgba(0,0,0,0.80); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ© */
     }
 
+
+h1{
+font-family: Courier New, monospace;
+color: #ffffff;
+font-weight: 100;
+
+}
+
+h2 {
+color:#ffffff ;
+font-weight: 100;
+}
   
 .card {
     padding: 16px;
     position: unset;
-    margin-bottom: 16px;
+    margin-bottom: 60px;
     background-color: white;
     border-bottom: 1px solid #6b7280;
     border-top: 1px solid #6b7280;
+    border-radius: 20px;
 }
 
 h3 {
@@ -58,6 +74,7 @@ h3 {
     /* border-right: 1px solid #161e2e;
     border-left: 1px solid #161e2e; */
     position: relative;
+    margin-left: 8px;
 }
 
 
@@ -68,8 +85,20 @@ span.badge {
     font-weight: 500;
     border-radius: 10px;
     padding: 0  4px 0 4px;
+
 }
 
+.one{
+width: 63%;
+display: flex;
+justify-content: space-between;
+}
+
+.two{
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+}
 
 p {
     display: flex;
@@ -80,13 +109,17 @@ p {
 
 
 #footer {
-      padding:50px 0;
+    padding:50px 0;
   color:#f0f9ff;
-  background-color:#F2F2F2;
+  background-color:#2f3143;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
 }
 
 img {
-    justify-content:right;
+    /* display: flex;
+    justify-content: center; */
     width : 50px;
     height : 50px;
 }
