@@ -1,18 +1,21 @@
 *{
-    padding: 0;
+    padding: 7px;
     margin: 0;
     box-sizing: border-box;
 }
 
 body {
     color: #4b4b4b;
-    background-color:#2f3143;
-    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    background-color: #2f3143;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
     font-size: 20px;
-    width: 100%;
-    border-right: 1px solid #ffffff;
-    border-left: 1px solid #ffffff;
-    
+    width: 98%;
+    /* border-right: 1px solid #ffffff;
+    border-left: px solid #ffffff; */
+    background-image: url("assets/vecteezy_abstract-futuristic-with-connection-lines-on-blue_22874469_385.jpg");
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -36,9 +39,76 @@ header {
     /* text-shadow:1px 3px 8px rgba(0,0,0,0.80); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ© */
     }
 
+ #name{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+
+
+  /* 75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+} */
+}
+
+#name{
+    animation-duration: 3s;
+    animation-name: slideright;
+  }
+  
+  @keyframes slideright {
+    from {
+      margin-right: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+  
+  #welcome{
+    animation-duration: 3s;
+    animation-name: slideleft;
+  }
+  
+  @keyframes slideleft {
+    from {
+      margin-left: -200%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 h1{
-font-family: Courier New, monospace;
+font-family: 'Roboto', sans-serif;
 color: #ffffff;
 font-weight: 100;
 
@@ -48,15 +118,22 @@ h2 {
 color:#ffffff ;
 font-weight: 100;
 }
+#exp{
+    text-decoration: underline;
+    text-decoration-color: #215273;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
   
 .card {
     padding: 16px;
-    position: unset;
     margin-bottom: 60px;
     background-color: white;
     border-bottom: 1px solid #6b7280;
     border-top: 1px solid #6b7280;
     border-radius: 20px;
+    /* opacity: 1; */
+    width: 90%;
 }
 
 h3 {
@@ -68,13 +145,15 @@ h3 {
     color: #4b4b4b;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     font-size: x-large;
-    justify-content: ;
+    justify-content: space-around ;
     width: 100%;
     margin: 0 auto;
     /* border-right: 1px solid #161e2e;
     border-left: 1px solid #161e2e; */
     position: relative;
     margin-left: 8px;
+    text-decoration: underline;
+    text-decoration-color: #D1E3E8;
 }
 
 
@@ -83,38 +162,68 @@ span.badge {
     background-color: #D1E3E8;
     font size: 14px;
     font-weight: 500;
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 0  4px 0 4px;
 
 }
 
+
+
 .one{
-width: 63%;
+width: 70%;
 display: flex;
 justify-content: space-between;
 }
 
 .two{
-    width: 63%;
+    width: 40.3%;
     display: flex;
     justify-content: space-between;
 }
+
+.three{
+    width: 40.3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four{
+    width: 40.3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.five{
+    width: 40.3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 p {
     display: flex;
     justify-content: space-between;
     /* background-color: red; */
     width: 80%;
+    margin-top: 10px;
 }
 
 
 #footer {
     padding:50px 0;
   color:#f0f9ff;
-  background-color:#2f3143;
-  display: flex;
-  justify-content: center;
+  /* background-color:#2f3143; */
   margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.adresse{
+    justify-content: space-between;
 }
 
 img {
@@ -123,4 +232,3 @@ img {
     width : 50px;
     height : 50px;
 }
-
