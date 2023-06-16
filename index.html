@@ -11,11 +11,38 @@
         <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="ligth">
+
+    <div class="btnToggle">Go nuit</div>
+
+    <!-- <div class="changeTheme">Switch le thème</div> 
+
+    <script>
+        const switchThemeBtn=document.querySelector('changeTheme')
+        let toggleTheme = 0;
+
+        switchThemeBtn.addEventListener('click',() => {
+            if(toggleTheme === 0){
+                document.documentElement.style.setProperty('--ecriture' , '#262626');
+                document.documentElement.style.setProperty('--background' , '#f1f1f1');
+                toggleTheme++;
+
+            } else {               
+                 document.documentElement.style.setProperty('--ecriture' , '#f1f1f1');
+                document.documentElement.style.setProperty('--background' , '#262626');
+                toggleTheme--;
+}
+
+
+        })
+
+    </script> -->
 
 
     <header>
-        <div id="home">
+        
+        
+       <div id="home">
 
             <div class="container">
 
@@ -35,6 +62,28 @@
 
     </header>
 
+    <!-- <div class="changeTheme">Switch le thème</div> 
+
+    <script>
+        const switchThemeBtn=document.querySelector('changeTheme')
+        let toggleTheme = 0;
+
+        switchThemeBtn.addEventListener('click',() => {
+            if(toggleTheme === 0){
+                document.documentElement.style.setProperty('--ecriture' , '#262626');
+                document.documentElement.style.setProperty('--background' , '#f1f1f1');
+                toggleTheme++;
+
+            } else {               
+                 document.documentElement.style.setProperty('--ecriture' , '#f1f1f1');
+                document.documentElement.style.setProperty('--background' , '#262626');
+                toggleTheme--;
+}
+
+
+        })
+
+    </script> -->
 
     <div class="experience">
 
@@ -45,19 +94,21 @@
             <div class="titre">
                 <p>Formation Clea Numerique</p>
             </div>
+            <div class="badge">
             <p>
                 <span class="badge"> Fevrier 2023 - Juillet 2023 </span>
                 <span class="badge"> Greta </span>
                 <span class="badge"> Boulogne sur mer </span>
+            </div>
             </p>
 
             <div class="description">
-                <div class="one">
+                <div class="intitule">
                     <p> <span> <img src="assets\dot 2.png" alt="Fleche"></span> Formation aux outils numeriques
                         sur les logiciels Word, Excel, Power
                         Point </p>
                 </div>
-                <div class="two">
+                <div class="plus">
                     <p> <span> <img src="assets\dot 2.png" alt="Plus"></span> Certification Clea Pix et Clea Numerique
                     </p>
                 </div>
@@ -70,9 +121,11 @@
             <div class="titre">
                 <p>Congé parental</p>
             </div>
-            <p>
+            <div class="badge">
+            <p>  
                 <span class="badge"> Octobre 2019 - Septembre 2022 </span>
             </p>
+            </div>
 
         </div>
 
@@ -82,15 +135,17 @@
             <div class="titre">
                 <p>Assistante de vie scolaire</p>
             </div>
+            <div class="badge">
             <p>
                 <span class="badge"> Janvier 2015 - Juin 2018 </span>
                 <span class="badge"> Ecole Ferry Nacry </span>
                 <span class="badge"> Saint Martin Boulogne </span>
+            </div>
             </p>
 
             <div class="description">
 
-                <div class="three">
+                <div class="intitule">
                     <p><span> <img src="assets\dot 2.png" alt="Fleche"></span> Accompagnement d'enfants en
                         situation de handicap dans le cadre de leur vie scolaire</p>
                 </div>
@@ -102,20 +157,23 @@
             <div class="titre">
                 <p> Au pair </p>
             </div>
+
+            <div class="badge">
             <p>
                 <span class="badge"> Fevrier 2013 - Mars 2014 </span>
                 <span class="badge"> Particuliers </span>
                 <span class="badge"> Letchworth, Angleterre </span>
             </p>
+            </div>
 
             <div class="description">
 
-                <div class="four">
+                <div class="intitule">
                     <p><span> <img src="assets\dot 2.png" alt="Fleche"></span> Accompagnement des enfants a
                         l'ecole et a leurs activites extra-scolaires </p>
                 </div>
 
-                <div class="five">
+                <div class="plus">
                     <p><span> <img src="assets\dot 2.png" alt="Plus"></span> Decouverte de la culture et perfectionnement
                         en anglais</p>
 
@@ -128,16 +186,16 @@
 
     <footer id="footer">
 
-        <h2 id="exp"> Contact </h2>
+        <h2 id="Contact"> Contact </h2>
 
         <div class="adresse">
 
-            <p>Adresse:
+            <p class="groove">  Adresse:
                 92, rue Saint Louis
                 62200 Boulogne sur mer</p>
-            <p>Email:
+            <p class="groove"> Email:
                 marine.lamour@gmx.fr</p>
-            <p>Telephone:
+            <p class="groove"> Telephone:
                 0769587038</p>
 
         </div>
@@ -145,7 +203,6 @@
 
         <div class="liens">
 
-            <!-- <a href="https://www.facebook.com/marine.lamour.7"><img src="assets\facebook.png" alt="LogoFacebook"></a> -->
             <a href="https://www.instagram.com/_lamourmarine_/"><img src="assets\instagram (1).png"
                     alt="logoInstagram"></a>
             <a href="https://www.linkedin.com/in/marine-lamour-8a1747278/"><img src="assets\linkedin.png"
