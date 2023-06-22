@@ -2,20 +2,26 @@ const btnToggle = document.querySelector ('.btnToggle')
 
 btnToggle.addEventListener('click' , () => {
 
-    const body = document.querySelector('.card');
+    const card = document.querySelectorAll ('.card');
 
-    if(body.classList.contains('dark')){
-        
-        body.classList.add('light')
-        body.classList.remove('dark')
-        btnToggle.innerHTML = "Go Dark"
+    card.forEach((card) => {
+        if (card.classList.contains('dark')) {
+    
+            card.classList.add('light')
+            card.classList.remove('dark')
+            btnToggle.innerHTML = "Go Dark"
+    
+        }  else {
+            
+            card.classList.add('dark')
+            card.classList.remove('light')
+            btnToggle.innerHTML = "Go light"
+    
+        }
+    
+    });
+    })
+    
+    
 
-    }  else{
-        
-        body.classList.add('dark')
-        body.classList.remove('light')
-        btnToggle.innerHTML = "Go light"
-
-    }
-
-})
+    
