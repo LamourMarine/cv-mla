@@ -1,9 +1,21 @@
 const btnToggle = document.querySelector ('.btnToggle')
 
-btnToggle.addEventListener('click' , () ==>{
+btnToggle.addEventListener('click' , () => {
 
-    const body = document.body;
+    const body = document.querySelector('.card');
 
-    if(body.classlist.contain)
+    if(body.classList.contains('dark')){
+        
+        body.classList.add('light')
+        body.classList.remove('dark')
+        btnToggle.innerHTML = "Go Dark"
+
+    }  else{
+        
+        body.classList.add('dark')
+        body.classList.remove('light')
+        btnToggle.innerHTML = "Go light"
+
+    }
 
 })
