@@ -29,7 +29,7 @@ header {
 }
 
 .btnToggle{
-  position: absolute;
+  position: fixed;
   top: 15px;
   right: 15px;
   width: 80px;
@@ -42,7 +42,7 @@ header {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-
+  z-index: 3000;
 }
 
 
@@ -55,7 +55,7 @@ header {
     font-weight: 100;
     
     /* font-weight: bold; // mettre en gras
-    font-size: 5em; // Une taille de 6 fois la taille normale */
+    /* font-size: 5em; // Une taille de 6 fois la taille normale */ */
     color: #ffffff;
     /* text-shadow:1px 3px 8px rgba(0,0,0,0.80); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ© */
     }
