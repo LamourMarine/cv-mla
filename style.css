@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
@@ -49,16 +49,16 @@ header {
 
 
 .container {
-    /* height: 80px; */
-    /* line-height: 80px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+     height: 80px; 
+     line-height: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     text-align:center;
     font-weight: 100;
     
-    /* font-weight: bold; // mettre en gras
-    /* font-size: 5em; // Une taille de 6 fois la taille normale */ 
+    font-weight: bold; // mettre en gras
+    font-size: 5em; // Une taille de 6 fois la taille normale 
     color: #ffffff;
-    /* text-shadow:1px 3px 8px rgba(0,0,0,0.80); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ© */
+    text-shadow:1px 3px 8px rgba(0,0,0,0.80); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ© 
     }
 
  #name{
@@ -80,11 +80,11 @@ header {
 
 
 
-  /* 75% {
+  75% {
   font-size: 300%;
   margin-left: 25%;
   width: 150%;
-} */
+} 
 }
 
 #name{
@@ -122,10 +122,10 @@ header {
   }
 
 .experience{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
+    justify-content: center; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,7 +137,7 @@ h1{
 font-family: 'Roboto', sans-serif;
 color: #ffffff;
 font-weight: 100;
-font-size: 300%;;
+/* font-size: 300%;; */
 
 }
 
@@ -184,8 +184,8 @@ h3 {
     justify-content: space-around ;
     width: 100%;
     margin: 0 auto;
-    /* border-right: 1px solid #161e2e;
-    border-left: 1px solid #161e2e; */
+    border-right: 1px solid #161e2e;
+    border-left: 1px solid #161e2e; 
     position: relative;
     margin-left: 120px;
     text-decoration: underline;
@@ -216,25 +216,25 @@ li {
   margin: 1.5%;
 }
 
-/* .intitule{
+.intitule{
 width: 66%;
 display: flex;
 justify-content: space-between;
 } */
 
-/* .plus{
+.plus{
     width: 37.3%;
     display: flex;
     justify-content: space-between;
-} */
+} 
 
 
 
 p {
     display: flex;
     justify-content: space-evenly;
-    /* color: var(--ecriture); */
-    /* background-color: red; */
+    color: var(--ecriture); */
+    background-color: red; 
     width: 80%;
     margin-top: 10px;
 }
@@ -242,9 +242,9 @@ p {
 
 #footer {
     height: 67vh;
-    /* padding:50px 0; */
+    padding:50px 0; 
     color:#f0f9ff;
-  /* background-color:#2f3143; */
+    background-color:#2f3143; 
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -259,32 +259,33 @@ p {
 }
 
 img{
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center; 
     width : 50px;
     height : 50px;
 }
 
 img:hover{
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+   -ms-transform: scale(1.5);  
+  -webkit-transform: scale(1.5); 
   transform: scale(1.5);
   }
 
 .groove {
-  /* border-style: groove;
+  border-style: groove;
   border-color: #468181; */
-  /* position:relative;
+  position:relative;
   top: 50%;
   left: 16%;
-  transform: translate(-50%, -50%); */
-  width: 324px;
+  transform: translate(-50%, -50%); 
+  width: 100%;
+  max-width: 324px;
   height: 93px;
   background: #111845a6;
   box-sizing: border-box;
   overflow: hidden;
   box-shadow: 0 20px 50px rgb(23, 32, 90);
-  /* border: 2px solid #215273; */
+  border: 2px solid #215273; 
   color: white;
   padding: 16px;
 }
@@ -299,13 +300,13 @@ img:hover{
 
 
 
-@media screen and (min-width: 30em) and (max-width: 125em) {
+/* @media only screen and (max-width: 768px) {
   body {
     font-size: 18px; 
   }
 
   .container {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   #name {
@@ -319,6 +320,57 @@ img:hover{
   .groove {
     width: 80%; 
     margin: 10px 0; 
-  }
+  } */
+/* }  */
+
+
+
+
+/* body { */
+  /* background-color: brown; */
+  /* color: #635d5d !important;
+    background-color: #2f3143;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    background-image: url("assets/vecteezy_abstract-futuristic-with-connection-lines-on-blue_22874469_385.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 center;
+    position: relative;
+    height: 1200px;
 }
+
+
+.card {
+  padding: 16px;
+  margin-bottom: 60px;
+  background-color: white;
+  border-bottom: 1px solid #6b7280;
+  border-top: 1px solid #6b7280;
+  border-radius: 20px;
+  opacity: 0.88;
+  width: 100%;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 300%;;
+  
+  }
+
+  h2 {
+    color:#ffffff ;
+    font-weight: 100;
+    }
+
+    img{
+       display: flex;
+      justify-content: center; 
+      width : 50px;
+      height : 50px;
+  } */
+
 

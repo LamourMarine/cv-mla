@@ -7,8 +7,9 @@ btnToggle.addEventListener('click' , () => {
     card.forEach((card) => {
         if (card.classList.contains('dark')) {
     
-            card.classList.add('light')
+            
             card.classList.remove('dark')
+            card.classList.add('light')
             btnToggle.innerHTML = "Go Dark"
     
         }  else {
