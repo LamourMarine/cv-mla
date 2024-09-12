@@ -1,4 +1,4 @@
-/* /* /*  *{
+/ *{
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
@@ -25,7 +25,7 @@ header {
     width:auto;
     height: 250px;
     background-color: F2F2F2;
-    margin-top: 80px
+    /* margin-top: 80px */
 }
 
 .btnToggle{
@@ -60,9 +60,9 @@ header {
     color: #ffffff;
     text-shadow:1px 3px 8px rgba(0,0,0,0.80); // une ombre de 8px decalÃ© de 3px et 1px avec une couleur noir Ã  80% d'opacitÃ© 
     }
-/* 
+
  #name{
-  margin-top: 180px;
+  /* margin-top: 180px; */
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -131,6 +131,12 @@ header {
     align-items: center;
 }
 
+.DiplomesEtFformations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 
 h1{
@@ -138,11 +144,19 @@ font-family: 'Roboto', sans-serif;
 color: #ffffff;
 font-weight: 100;
 /* font-size: 300%;; */
+}
 
 h2 {
 color:#ffffff ;
 font-weight: 100;
+text-align: center;
+text-decoration: underline;
+text-underline-offset: 5px;
+text-decoration-color: #215273;
+padding-left: 10px;
+margin-bottom: 25px;
 }
+
 #exp{
     text-decoration: underline;
     text-underline-offset: 5px;
@@ -183,9 +197,9 @@ h3 {
     width: 100%;
     margin: 0 auto;
     border-right: 1px solid #161e2e;
-    border-left: 1px solid #161e2e; 
+    /* border-left: 1px solid #161e2e;  */
     position: relative;
-    margin-left: 120px;
+    margin-left: 50px;
     text-decoration: underline;
     text-decoration-color: #D1E3E8;
 }
@@ -232,7 +246,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     color: var(--ecriture);
-    background-color: red; 
+    /* background-color: red;  */
     width: 80%;
     margin-top: 10px;
 }
@@ -242,7 +256,7 @@ p {
     height: 67vh;
     padding:50px 0; 
     color:#f0f9ff;
-    background-color:#2f3143; 
+    /* background-color:#2f3143;  */
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -257,7 +271,7 @@ p {
 }
 
 img{
-    display: flex;
+    /* display: flex; */
     justify-content: center; 
     width : 50px;
     height : 50px;

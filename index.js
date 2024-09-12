@@ -10,7 +10,7 @@ btnToggle.addEventListener('click' , () => {
             
             card.classList.remove('dark')
             card.classList.add('light')
-            btnToggle.innerHTML = "Go Dark"
+            btnToggle.innerHTML = "Go dark"
     
         }  else {
             
