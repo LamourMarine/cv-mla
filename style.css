@@ -161,7 +161,7 @@ text-underline-offset: 5px;
 text-decoration-color: #215273;
 /*! padding-left: 10px; */
 margin-bottom: 25px;
-font-size: 1rem;
+font-size: 2rem;
 }
 
 #exp{
@@ -214,9 +214,10 @@ h3 {
 .badge{
 display: flex;
 justify-content: space-evenly;
+gap: 4%
 }
 
-span.badge {
+p.badge {
   color: #215273;
   background-color: #D1E3E8;
   font-size: 14px;
@@ -263,6 +264,14 @@ display: flex;
 justify-content: center;
 }
 
+#Contact {
+  font-size:xx-large;
+}
+
+.Présentation {
+  text-align: center;
+}
+
 #footer {
   height: 67vh;
   padding:50px 0; 
@@ -274,6 +283,10 @@ justify-content: center;
   align-items: center;
   justify-content: space-between;
   /*! top: 20%; */
+  background-color: #214962;
+  /*! background: transparent; */
+  /*! opacity: ; */
+  /*! background: rgba\(0, 151, 19, 0.3\); */
 }
 
 
