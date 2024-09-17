@@ -3,6 +3,7 @@ const btnToggle = document.querySelector ('.btnToggle')
 btnToggle.addEventListener('click' , () => {
 
     const card = document.querySelectorAll ('.card');
+    const badge = document.querySelector('badge');
 
     card.forEach((card) => {
         if (card.classList.contains('dark')) {
@@ -22,6 +23,15 @@ btnToggle.addEventListener('click' , () => {
     
     });
     })
+
+    // if (badge.classList.contains('dark')) {
+    //     badge.classList.remove('dark');
+    //     badge.classList.add('light');
+    //   } else {
+    //     badge.classList.add('dark');
+    //     badge.classList.remove('light');
+    //   }
+    
 
 
     

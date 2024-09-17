@@ -227,14 +227,14 @@ h2#Diplômes{
   color: #ffffff;
 }
 
-p.badge.dark {
+/* .badge.dark {
   color: #215273;
   background-color: #d1e3e8;
   font-size: 14px;
   font-weight: 500;
   border-radius: 0px;
   padding: 0 4px 0 4px;
-}
+} */
 
 h3 {
   font-size: small;
