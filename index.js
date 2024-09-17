@@ -23,7 +23,7 @@ btnToggle.addEventListener('click' , () => {
         }
     
     });
-    })
+   
 
     badges.forEach((badge) => {
         if (badge.classList.contains('dark')) {
@@ -35,6 +35,6 @@ btnToggle.addEventListener('click' , () => {
         }
     });
 
-
+})
     
     
