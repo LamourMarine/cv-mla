@@ -24,7 +24,7 @@ header {
   /* height: 620px; */
   background-color: F2F2F2;
   /* margin-top: 80px */
-}
+gi}
 
 hr{
   margin-top: 4%;
@@ -44,16 +44,16 @@ section{
   margin-left: 50px;
   margin-right: 65px;
 }
-p#First {
+/* p#First {
   text-align: center;
   
-}
+} */
 
-.About {
+/* .About {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .btnToggle {
   position: fixed;
@@ -223,22 +223,23 @@ h2#Diplômes{
   color: #f5f0f0;
 }
 
-.card.dark p {
-  color: #ffffff;
-}
+.badge.dark {
+  
+    background-color: #6b7280;
+    color: #f5f0f0;
+  }
+  
 
-/* .badge.dark {
-  color: #215273;
-  background-color: #d1e3e8;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 0px;
-  padding: 0 4px 0 4px;
+
+
+/* .card.dark p {
+  color: #ffffff;
 } */
 
+/* 
 h3 {
   font-size: small;
-}
+} */
 
 
 .titre {
